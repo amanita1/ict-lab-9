@@ -25,6 +25,7 @@ body {
     text-transform: uppercase;
 }
 
+/*Выделение цветом вкладки меню с выбранной страницей*/
 .current-page{
     background-color: #ccb2cf;
     color: white;
@@ -58,21 +59,22 @@ body {
     margin-bottom: 35px;
 }
 
-.intro-text {
+.styled-text {
     margin-bottom: 58px;
     opacity: 0.7; 
 }
 
-.intro-text> a{
+.styled-text> a{
     text-decoration: none;
     color: black;
 }
 
-.intro-text> a:hover{
+.styled-text> a:hover{
     color: purple;
     font-weight: bold;
 }
 
+/*кнопка-ссылка на портфолио*/
 .portfolio-link {
     color: #ffffff;
     display: inline-block;
@@ -96,7 +98,7 @@ body {
 }
 .footer-wrapper{
     background-color: black;
-    height: 80px;
+    height: 100px;
 }
 .footer-content{
     display: inline-block;
