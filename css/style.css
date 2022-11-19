@@ -66,7 +66,8 @@ body {
 
 .styled-text> a{
     text-decoration: none;
-    color: black;
+    color: purple;
+/*    color: black;*/
 }
 
 .styled-text> a:hover{
@@ -74,8 +75,10 @@ body {
     font-weight: bold;
 }
 
-/*кнопка-ссылка на портфолио*/
-.portfolio-link {
+/*кнопка-ссылка*/
+.link-button {
+    text-decoration: none;
+    color: black;
     color: #ffffff;
     display: inline-block;
     background-color:#bb6ec4;
@@ -85,9 +88,12 @@ body {
     text-decoration: none;
     border-radius: 20px;
 }
-.portfolio-link:hover {
-        color: white;
+
+.link-button:hover {
+    color: white;
     background-color: #ccb2cf;
+/*    color: purple;*/
+    font-weight: bold;
 }
 
 .intro-image {
@@ -118,3 +124,9 @@ body {
 .card{
     margin: 20px;
 }
+.work-descript{
+
+    font-size: 1.3rem;
+}
+
+/*я, короче, запарился писать комменты, так что просто объясню код устно во время защиты лабки*/
