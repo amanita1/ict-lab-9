@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    background-color: #e0e0e0;
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 89px;
+    background-color: #000000;
+
+}
+
+.site-menu {
+    text-align: center;
+}
+
+.site-menu > a {
+    display: inline-block;
+    padding: 42px 25px 30px;
+    color: #e0e0e0;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.current-page{
+    background-color: #ccb2cf;
+    color: white;
+}
+
+.site-menu > a:hover {
+    /*background-color: #ff3f40;*/
+    background-color: #ccb2cf;
+    color: white;
+}
+
+.intro {
+    background-color: #e0e0e0;
+    /*background-color: #ababab;*/
+    width: 100%;
+    padding: 108px 120px 123px;
+}
+
+.intro-wrapper {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin-right: 68px;
+}
+
+.intro-wrapper h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.intro-text {
+    margin-bottom: 58px;
+    opacity: 0.7; 
+}
+
+.intro-text> a{
+    text-decoration: none;
+    color: black;
+}
+
+.intro-text> a:hover{
+    color: purple;
+    font-weight: bold;
+}
+
+.portfolio-link {
+    color: #ffffff;
+    display: inline-block;
+    background-color:#bb6ec4;
+    width: 227px;
+    padding: 22px 0;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.portfolio-link:hover {
+        color: white;
+    background-color: #ccb2cf;
+}
+
+.intro-image {
+    display: inline-block;
+    width: 514px; 
+    height: 684.737px;
+    border-radius: 50px;
+}
+.footer-wrapper{
+    background-color: black;
+    height: 80px;
+}
+.footer-content{
+    display: inline-block;
+    align-self: center;
+    color: whitesmoke;
+    margin-left: 45%;
+    margin-top: 30px;
+}
+.card-wrapper{
+    width: 100%;
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: flex-start;
+}
+.card{
+    margin: 20px;
+}
